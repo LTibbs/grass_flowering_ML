@@ -9,7 +9,7 @@ Objective: can a fast, easy-to-train model trained on relatively few images succ
 - --> 211 total images for model after augmentation
 
 ## Results:
-Applied model to big bluestem but also Indiangrass and switchgrass because of visual similarities in anthers. Generally, poor results (worse than image classification for switchgrass and big bluestem), but anther detection actually performed better than image classification in Indiangrass.
+Applied model to big bluestem but also Indiangrass and switchgrass because of visual similarities in anthers. Model was applied to new images from iNaturalist that were not included in the input data in any way. Generally, poor results (worse than image classification for switchgrass and big bluestem), but anther detection actually performed better than image classification in Indiangrass.
 - Big bluestem: https://github.com/LTibbs/grass_flowering_ML/blob/main/anther_detection/bb_confusion_matrix_detection.png
   - ![bb_confusion_matrix_detection](https://github.com/LTibbs/grass_flowering_ML/blob/main/anther_detection/bb_confusion_matrix_detection.png)
 - Indiangrass: https://github.com/LTibbs/grass_flowering_ML/blob/main/anther_detection/indiangrass_confusion_matrix_detection.png
