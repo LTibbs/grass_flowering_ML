@@ -9,4 +9,4 @@ Input data: research-grade iNaturalist images taken by Dec 31, 2022, which were 
 - Switchgrass
   - Input data: 6768 manually-scored images (495 flowering, 6273 not flowering).
   - Resulting model: [SwitchgrassML2_best.pt](https://github.com/LTibbs/grass_flowering_ML/blob/main/image_classification/SwitchgrassML2_best.pt)
-  - Results on validation data: ![switchgrass_confusion_matrix_classification.png](https://github.com/LTibbs/grass_flowering_ML/blob/main/image_classification/switchgrass_confusion_matrix_classification.png)
+  - Results on test data: ![switchgrass_confusion_matrix_classification.png](https://github.com/LTibbs/grass_flowering_ML/blob/main/image_classification/switchgrass_confusion_matrix_classification.png)
